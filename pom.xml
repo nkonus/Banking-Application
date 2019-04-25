@@ -2,12 +2,12 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>CST_105</groupId>
-  <artifactId>WEEK4</artifactId>
+  <groupId>JDBCParctice</groupId>
+  <artifactId>JDBCParctice</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>WEEK4</name>
+  <name>JDBCParctice</name>
   <url>http://maven.apache.org</url>
 
   <properties>
@@ -15,6 +15,21 @@
   </properties>
 
   <dependencies>
+  
+   <dependency>
+        <groupId>mysql</groupId>
+        <artifactId>mysql-connector-java</artifactId>
+        <version>8.0.15</version>
+    </dependency>
+  
+  
+  <dependency>
+        <groupId>org.hibernate</groupId>
+        <artifactId>hibernate-core</artifactId>
+        <version>4.1.9.Final</version>
+    </dependency>
+  
+  
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>

@@ -1,12 +1,18 @@
-package CST_105.WEEK4;
+package CST_105;
 
-public class Account {
+import java.text.DecimalFormat;
+import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+
+public abstract class Account implements iTrans {
 
 	double balance;
 	private String account;
 	
-	
-	
+	Transaction t = new Transaction();
+
 		public double getBalance() {
 			return balance;
 		}
@@ -24,10 +30,7 @@ public class Account {
 		}
 
 	
-	
-	
-	
-	
+
 	
 	public double doWithdraw (double amount) {
 		
@@ -48,7 +51,17 @@ public class Account {
 	public double doDeposit(double amount) {
 		return amount;
 		
+	}
+
+	public void displayTransaction() {
+		// TODO Auto-generated method stub
 		
 	}
+
+	public void addTransaction(double amount, String type) {
+		// TODO Auto-generated method stub
+		
+	}
+
 }
 
